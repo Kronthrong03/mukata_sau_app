@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mukata_sau_app/views/calculate_pay_bill_ui.dart';
 import 'package:mukata_sau_app/views/home_ui.dart';
 import 'package:mukata_sau_app/views/menu_shop_ui.dart';
 import 'package:mukata_sau_app/views/splash_screen_ui.dart';
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeUI(),
+      home: SplashscreenUI(),
       theme: ThemeData(
         textTheme: GoogleFonts.srirachaTextTheme(
           Theme.of(context).textTheme,
